@@ -3047,6 +3047,14 @@ const devices = [
         supports: 'on/off, brightness, color, color temperature',
     },
     {
+        zigbeeModel: ['GL-S-008Z'],
+        model: 'GL-S-008Z',
+        vendor: 'Gledopto',
+        description: 'Dual White And Color',
+        extend: gledopto.light,
+        supports: 'on/off, brightness, color, color temperature',
+    },
+    {
         zigbeeModel: ['GL-B-001Z'],
         model: 'GL-B-001Z',
         vendor: 'Gledopto',
